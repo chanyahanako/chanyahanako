@@ -18,11 +18,19 @@
     <title>Chanya Hanako・ハナコ チャンヤ</title> 
 
     <script src="https://kit.fontawesome.com/1d3c361b81.js" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Kosugi&family=M+PLUS+1p:wght@100;300;400;500;700;800;900&family=New+Tegomin&family=Noto+Sans+JP:wght@100;300;400;500;700;900&family=RocknRoll+One&family=Sawarabi+Gothic&family=Sawarabi+Mincho&family=Shippori+Mincho+B1:wght@400;500&family=Shippori+Mincho:wght@400;500;600;700;800&family=Yusei+Magic&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <nav class="header-nav">
         <div class="nav-container">
-            <img src="img2/magnolia-icon-pink.png" class="nav-brand-icon" alt="">
+            <div class="brand">
+                <img src="img2/magnolia-icon-pink.png" class="nav-brand-icon" alt="">
+                <span class="chanya-hanako-brand">&lt;<span class="jp-name-brand">ハナコ チャンヤ</span> /&gt;</span>
+            </div>
             <ul>
                 <li><a href="" class="active">About & Services</a></li>
                 <li><a href="">Portfolio</a></li>
@@ -35,7 +43,7 @@
         <div class="content-container introduction">
             <div class="intro-content">
                 <h1 class="title">Chanya Hanako
-                    <span class="title-inline">&lt;ハナコ チャンヤ /&gt;</span>
+                    <span class="title-inline">&lt;<span class="jp-name">ハナコ チャンヤ</span> /&gt;</span>
                 </h1>
                 <p class="occupation">An experienced web designer & developer</p>
             </div>
@@ -44,7 +52,7 @@
     </section>
     <section class="section intro about">
         <div class="content-container">
-            <img src="img2/circle4.png" alt="" width="150px" style="opacity: .2;">
+            <!-- <img src="img2/chan.jpeg" alt="" width="150px" style="opacity: .2;"> -->
             <div class="profile-content">
                 <h2>alert( 'Hello, world!' );</h2>
                 <p>I'm Chanya Hanako, an experienced Web Designer and Developer based in somewhere, USA. I have a passion for websites and love to create for desktop and mobile devices. I enjoy working with clients around the world. <span class="work-ethics">Creativity, Curiosity, and Problem solving skills are my well-respected qualities.</p>
@@ -55,10 +63,10 @@
         <div class="content-container">
             <h1>What I Specialize In</h1>
             <div class="service-item design">
-                <img src="img2/circle4.png" alt="" width="150px">
+                <img src="img2/girl8.png" alt="">
                 <div>
                     <h2>Custom web design
-                        <i class="fas fa-eraser" aria-hidden="true" style="color: #738de4;color: #b9bdcd;font-size: 24px;margin-left: 5px;"></i>
+                        <i class="fas fa-eraser" aria-hidden="true" style="color: #738de4;color: #b9bdcd; color: #969ebd;color: #a6b0d8;color: #949fcc;color: #969ebd;font-size: 24px;margin-left: 5px;"></i>
                     </h2>
                     <p>I create customized design for your business or personal website. Design should be kept simple and coherent. My goal is to focus on modern, friendly design, fully responsive layouts and unique brand image to visually communicate to your target audience.</p>
                 </div>
@@ -66,12 +74,12 @@
             <div class="service-item dev">
                 <div>
                     <h2>Responsive web development
-                        <i class="fas fa-code" aria-hidden="true" style="color: #738de4;color: #b9bdcd;font-size: 24px;margin-left: 5px;"></i>
+                        <i class="fas fa-code" aria-hidden="true" style="color: #738de4;color: #b9bdcd; color: #969ebd;color: #a6b0d8;color: #949fcc;color: #969ebd;font-size: 24px;margin-left: 5px;"></i>
                     </h2>
                     <p>I personally develop each web project in-house, without outsourcing to the third parties, using the latest technologies available. Correspondingly, I have full knowledge of your project from start to finish &mdash; ensuring consistent design outcome and well-structured code while closing the gap between design and development.
                     </p>
                 </div>
-                <img src="img2/circle4.png" alt="" width="150px">
+                <img src="img2/girl7.png" alt="">
             </div>
             <div class="service-item summary">
                 <p>The end result is your website will be smoothly rendered across desktop, tablet and mobile devices creating a seamless, enjoayble user experience. Ultimately, every website is designed and developed with the end users in mind using <span class="txhl">User-Centric Approach</span>. 
@@ -82,12 +90,17 @@
     <section class="section contact">
         <div class="content-container">
             <h1>Let's Collaborate!</h1>
-            <h2 class="contact">I’m excited to learn about your project ideas</h2>
-            <p>If you have a web project that you want to get started/reworked and would like to get a free 20 minute consultation, please don't hesitate to contact me.</p>
+            <h2 class="contact">I have a mission. What's yours?</h2>
             <a href="" class="cta-btn">
                 <i class="fas fa-envelope icon"></i>
-                Start project now
-            </a>           
+                Start New Project
+            </a>   
+            <p>Contact me now if you have a website project that you want to get started or reworked. I’m excited to learn about your project plans and ideas.</p> 
+            <p class="contact-details">
+                <span class="contact-email">collab@chanyahanako.com</span>
+                <img src="img2/solid-line-w.svg" class="contact-separator" alt="Separator">
+                <span class="contact-no">+1 (609) 789 2998</span>
+            </p>
         </div>
     </section>
     <footer>
@@ -98,10 +111,11 @@
                 <li><a href=""><i class="fab fa-behance footer-icon"></i></a></li>
                 <li><a href=""><i class="fab fa-dribbble footer-icon"></i></a></li>
                 <!-- <li><a href=""><i class="fab fa-pinterest footer-icon"></i></a></li> -->
+                <li><a href=""><i class="fab fa-instagram footer-icon"></i></a></li>
+                <li><a href=""><img src="img2/solid-line.svg" class="separator" alt="" ></a></li>
                 <li><a href=""><i class="fab fa-twitter footer-icon"></i></a></li>
-                <li><a href=""><i class="fab fa-facebook-square footer-icon"></i></a></li>
-                <!-- <li><a href=""><i class="fab fa-instagram footer-icon"></i></a></li> -->
-                <!-- <li><a href=""><i class="fab fa-linkedin footer-icon"></i></a></li> -->
+                <li><a href=""><i class="fab fa-facebook-f footer-icon"></i></a></li>
+                <li><a href=""><i class="fab fa-linkedin-in footer-icon"></i></a></li>
             </ul>
         </div>
     </footer>
