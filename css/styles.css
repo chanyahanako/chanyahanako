@@ -39,6 +39,10 @@ body {
     align-items: center;
 }
 
+.brand-global {
+    text-decoration: none;
+}
+
 .chanya-hanako-brand {
     color: #ffffff;
     font-family: 'Sawarabi Mincho', sans-serif;
@@ -50,7 +54,7 @@ body {
 
 .jp-name-brand {
     font-family: 'Sawarabi Mincho', sans-serif;
-    font-size: 19px;
+    font-size: 18px;
 }
 
 .header-nav li {
@@ -177,6 +181,10 @@ p {
     width: 860px;
     margin: 0 auto;
     position: relative;
+    /* text-align: center; */
+}
+
+.center {
     text-align: center;
 }
 
@@ -252,6 +260,7 @@ footer {
     color: #7c93e2;
     font-family: 'Source Code Pro', monospace;
     font-size: 26px;
+    text-align: center;
 }
 
 .cta-btn {
@@ -309,7 +318,7 @@ footer {
 
 .service-item {
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     margin-bottom: 50px;
 }
 
@@ -328,7 +337,7 @@ footer {
 }
 
 .service-item.dev {
-    text-align: right;
+    /* text-align: right; */
 }
 
 .service-item.dev img {
@@ -403,6 +412,8 @@ footer ul li a:hover {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; */
     color: #343c52;
+    color: #a1a3b5;
+    color: #83869e;
 }
 
 footer {
@@ -420,6 +431,8 @@ footer {
     background-image: linear-gradient(45deg, #5367a2, #c29994, #545fad);
     background-image: linear-gradient(45deg, #6375ab, #c29994, #545fad);
     background-image: linear-gradient(45deg, #5367a2, #c29994, #525a94);
+    /* background-color: rgb(29 29 43); */
+    background-image: linear-gradient(90deg, rgb(26 26 39), #1f202f);
     padding: 40px 0 30px;
     padding: 30px 0 20px;
     /* opacity: .9; */
@@ -486,7 +499,7 @@ footer {
 }
 
 .footer-icon {
-    font-size: 26px;
+    font-size: 24px;
 }
 
 .promo {
@@ -510,7 +523,7 @@ footer {
 
 .separator {
     height: 25px;
-    opacity: .8;
+    opacity: .15;
     margin: 0 6px -3px;
 }
 
