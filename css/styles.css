@@ -37,10 +37,23 @@ body {
 .global-nav-cta {
     background-color: #7996ff;
     background-color: #7996ff;
+    background-color: #607ee8;
+    background-color: #5c80ff;
     color: #fff !important;
     padding: 10px 18px 8px;
     padding: 11px 18px 9px;
     border-radius: 4px;
+    transition: all .2s;
+}
+
+.global-nav-cta:hover {
+    background-color: #5c80ff;
+    background-color: #384fec;
+    background-color: #436af1;
+    background-color: #3757f5;
+    background-color: #4e6cff;
+    background-color: #4663f5;
+    background-color: #506cf7;
 }
 
 .brand {
@@ -100,6 +113,7 @@ h2.contact {
     color: #8c9fe0;
     color: #99adef;
     color: #9caee8;
+    color: #9ba6cc;
     transition: all .2s;
 }
 
@@ -150,15 +164,18 @@ h1.title {
     font-size: 82px;
     font-size: 78px;
     font-weight: 500;
-    margin-bottom: 16px;
+    margin-bottom: 25px;
     text-align: center;
 }
 
 .title-inline {
     color: #748de4;
+    color: #8894bb;
     color: #a5b5ec;
     font-size: 40px;
     font-weight: 600;
+    font-size: 32px;
+    font-weight: 400;
     display: block;
 }
 
@@ -167,6 +184,26 @@ h1.title {
     font-size: 27px;
     color: rgb(134 134 156);
     color: rgb(144 144 167);
+    background-color: #181725;
+    /* background-color: #272631; */
+    background-color: #23222d;
+    width: fit-content;
+    margin: auto;
+    padding: 2px 15px 1px;
+    padding: 4px 17px 2px;
+    padding: 6px 18px 4px;
+    padding: 8px 20px 6px;
+    /* padding: 10px 24px 8px; */
+    border-radius: 6px;
+    color: white;
+    font-size: 23px;
+    font-size: 23px;
+    color: #aaa8bd;
+    color: #a7a7b7;
+    color: #858598;
+    color: #9c9cb1;
+    color: #9090a2;
+    text-transform: capitalize;
 }
 
 .jp-name {
@@ -219,6 +256,9 @@ p {
     background-color: #151520;
     color: #9eacdc;
     color: #abb7e0;
+    color: #dae2ff;
+    color: #c9cfe4;
+    color: #bcc2d8;
     background-image: linear-gradient(-60deg, #151520, #222235);
     padding: 70px 0;
 }
@@ -276,6 +316,7 @@ footer {
 
 .cta-btn {
     background-color: #5a74d0;
+    background-color: #5c80ff;
     border-radius: 6px;
     color: #fff;
     display: inline-block;
@@ -291,12 +332,19 @@ footer {
     background-color: #435aa5;
     background-color: #5b81ff;
     background-color: #6b8bfd;
-    box-shadow: 0 14px 30px 20px rgb(0 0 0 / 8%), 0 10px 40px 40px rgb(0 0 0 / 8%);
+    background-color: #4663f5;
+    background-color: #4763ef;
+    /* background-color: #506cf7; */
+    /* box-shadow: 0 14px 30px 20px rgb(0 0 0 / 8%), 0 10px 40px 40px rgb(0 0 0 / 8%); */
 }
 
 .icon {
     font-size: 22px;
     margin-right: 8px;
+}
+
+.services h1 {
+    font-weight: 600;
 }
 
 .services h1, .contact h1  {
@@ -407,6 +455,7 @@ footer ul li a {
     color: #4b5fa0;
     color: rgba(93, 117, 193, 1);
     color: white;
+    color: #949aaf;
     display: inline-block;
     margin-left: 18px;
     margin-bottom: 0;
@@ -428,6 +477,7 @@ footer ul li a:hover {
     color: #9eacd8;
     color: #7a89b7;
     color: #8996c1;
+    color: #d9def1;
 }
 
 footer {
@@ -460,6 +510,7 @@ footer {
     color: #ffffff;
     color: #616884;
     color: #757592;
+    color: #949aaf;
 }
 
 .bxh {
@@ -540,7 +591,7 @@ footer {
 .separator {
     height: 25px;
     opacity: .15;
-    margin: 0 6px -3px;
+    margin: 0 12px -3px;
 }
 
 .contact-details {
@@ -584,4 +635,9 @@ background-image: linear-gradient(
 
 .content-container.md {
     width: 920px;
+}
+
+.jp-chanya {
+    font-family: 'Sawarabi Mincho', sans-serif;
+    font-size: 17px;
 }
