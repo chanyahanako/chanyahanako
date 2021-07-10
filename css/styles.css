@@ -234,6 +234,7 @@ h1.title {
     background-image: linear-gradient(45deg, #bd7c78, #4c6ee4);
     background-image: linear-gradient(45deg, #d2908c, #4c6ee4);
     background-image: linear-gradient(45deg, #c99a97, #5c80ff);
+    background-image: linear-gradient(265deg, #c99a97, #5c80ff);
     color: #ffffff;
     /* color: #a2a5bd; */
 }
@@ -349,6 +350,8 @@ footer {
     color: #d8e1ff;
     color: #748de4;
     color: #7c93e2;
+    color: #7b98ff;
+    /* color: #859ef5; */
     font-family: 'Source Code Pro', monospace;
     font-size: 26px;
     text-align: center;
